@@ -1,0 +1,249 @@
+:root{
+    --tres4: #58506B;
+    --uno2: #817699;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'DM Sans', Open Sans;
+    font-size: 60%;
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+.bienvenida{
+    position: static;
+    color: var(--tres4);
+    margin: 15px 20px;
+}
+
+.primer-contenedor{
+    width: 100%;
+    margin: 20px auto;
+}
+
+.primer-contenedor-tarjeta{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;
+    background: linear-gradient(180deg, rgba(44, 82, 216, 0) 0%, rgba(44, 82, 216, 0.4) 100%), #54D1ED;
+    background-blend-mode: multiply, normal;
+    box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
+    border-radius: 20px;
+}
+
+.primer-contenedor-tarjeta h3{
+    color: #ffffff;
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    font-size: 18px;
+    line-height: 3.0rem;
+}
+
+.primer-contenedor-tarjeta .imagenpunpun{
+    position: absolute;
+    left: 210px;
+    top: -30px;
+    width: 80px;
+    border-radius: 40px;
+}
+
+.primer-contenedor-tarjeta .imagenpiece{
+    position: absolute;
+    left: 150px;
+    top: 80px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.primer-contenedor-tarjeta .imagendb{
+    position: absolute;
+    left: 132px;
+    top: 5px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.primer-contenedor-tarjeta p{
+    color: #ffffff;
+    position: absolute;
+    left: 25px;
+    top: 140px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.primer-contenedor-info{
+    margin: 20px auto;
+    width: 90%;
+    text-align: center;
+}
+
+.primer-contenedor-info .info-manga{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.primer-contenedor-info .info-manga h2{
+    font-size: 20px;
+    margin: 10px auto;
+    color: var(--tres4);
+}
+
+.primer-contenedor-info .info-manga p{
+    line-height: 18px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    line-height: 20px;
+    color: var(--uno2);
+}
+
+.primer-contenedor-info .info-manga img{
+    width: 100%;
+    margin-bottom: 0 auto;
+    border: 1px solid black;
+}
+
+.primer-contenedor-info .info-anime{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.primer-contenedor-info .info-anime h2{
+    font-size: 20px;
+    margin: 10px auto;
+    color: var(--tres4);
+}
+
+.primer-contenedor-info .info-anime p{
+    line-height: 18px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    line-height: 20px;
+    color: var(--uno2);
+}
+
+.primer-contenedor-info .info-anime img{
+    width: 100%;
+    margin-bottom: 0 auto;
+    border: 1px solid black;
+}
+
+
+
+.contenedor-generos{
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+    border-top: 1px solid #D9D9D8;
+    border-bottom: 1px solid #D9D9D8;
+}
+
+.contenedor-generos h2{
+    position: static;
+    color: var(--tres4);
+    margin: 20px 20px;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+.contenedor-generos .info-genero-demografia{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.contenedor-generos .info-genero-demografia .clasificacion{
+    background-color: #F3F2F3;
+    width: 45%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.contenedor-generos .info-genero-demografia .clasificacion h4{
+    color: var(--uno2);
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.contenedor-generos .info-genero-demografia .clasificacion p{
+    color: var(--uno2);
+    font-weight: 400;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.contenedor-generos .info-genero-demografia .clasificacion ul{
+    list-style: circle;
+    margin-left: 15px;
+    color: var(--uno2);
+}
+
+
+
+.obras-recomendadas-contenedor{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.obras-recomendadas-contenedor h2{
+    margin: 20px 20px;
+    color: var(--tres4);
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+.obras-recomendadas-contenedor p{
+    line-height: 18px;
+    font-size: 12px;
+    line-height: 20px;
+    color: var(--uno2);
+    width: 90%;
+    margin: 10px auto;
+}
+
+.obras-recomendadas{
+    position: relative;
+    background-color: #F3F2F3;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.obras-recomendadas h3{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+    color: var(--tres4);
+}
+
+.obras-recomendadas p{
+    color: var(--uno2);
+}
+
+.obras-recomendadas img{
+    width: 80%;
+    margin-left: 29px;
+    margin-bottom: 10px;
+}
+
+.obras-recomendadas div{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    text-align: center;
+}
