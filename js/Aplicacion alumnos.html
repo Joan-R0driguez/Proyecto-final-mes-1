@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas alumnos</title>
+</head>
+<body>
+    
+    <script>
+        var usuarios = [
+    {
+        usuarioNombre: "Jose",
+        contraseña: "123321"
+    },
+    {
+        usuarioNombre: "Wilson",
+        contraseña: "abcde"
+    },
+    {
+        usuarioNombre: "Cesar",
+        contraseña: "hola123"
+    },
+    {
+        usuarioNombre: "Edwin",
+        contraseña: "chao123"
+    }
+]
+
+var notas = [
+    {
+        nombre: "Jose",
+        nota: 10
+    },
+    {
+        nombre: "Wilson",
+        nota: 9
+    },
+    {
+        nombre: "Cesar",
+        nota: 8
+    },
+    {
+        nombre: "Edwin",
+        note: 10
+    }
+]
+
+var usuarioPrompt = prompt("Ingrese su usuario");
+var contraseñaPrompt = prompt("Ingrese su contraseña");
+
+function UsuarioValido(user, pass) {
+    for (var i=0; 1 < usuarios.length; i++) {
+        if (user === usuarios[0].usuarioNombre && pass === usuarios[0].contraseña){
+            return true;
+        } else if (user === usuarios[1].usuarioNombre && usuarios[1].contraseña) {
+            return true;
+        } else if (user === usuarios[2].usuarioNombre && usuarios[2].contraseña) {
+            return true;
+        } else if (user === usuarios[3].usuarioNombre && usuarios[3].contraseña) {
+            return true;
+        } 
+    } return false
+}
+
+function IniciarSesion(user, pass) {
+    if (UsuarioValido(user, pass)) {
+        console.log(notas);
+    } else {
+        alert("Ups, usuario o contraseña invalido")
+    }
+}
+
+IniciarSesion(usuarioPrompt, contraseñaPrompt);
+    </script>
+</body>
+</html>
