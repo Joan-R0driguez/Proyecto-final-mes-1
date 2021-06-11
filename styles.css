@@ -63,7 +63,7 @@ main{
     left: 150px;
     top: 80px;
     width: 100px;
-    border-radius: 50px;
+    border-radius: 40px;
 }
 
 .primer-contenedor-tarjeta .imagendb{
@@ -71,16 +71,16 @@ main{
     left: 132px;
     top: 5px;
     width: 100px;
-    border-radius: 50px;
+    border-radius: 40px;
 }
 
 .primer-contenedor-tarjeta p{
     color: #ffffff;
     position: absolute;
     left: 25px;
-    top: 140px;
+    top: 138px;
     font-size: 12px;
-    margin-bottom: 15px;
+    width: 90%;
 }
 
 .primer-contenedor-info{
@@ -198,6 +198,8 @@ main{
 .obras-recomendadas-contenedor{
     width: 90%;
     margin: 0 auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #D9D9D8;
 }
 
 .obras-recomendadas-contenedor h2{
@@ -246,4 +248,52 @@ main{
     margin: 0 auto;
     padding-bottom: 10px;
     text-align: center;
+}
+
+.logros-container{
+    width: 90%;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D9D9D8;
+}
+
+.logros-container h2{
+    color: var(--tres4);
+    font-weight: 600;
+    font-style: 18px;
+    margin: 20px 20px;
+}
+
+.logros-container .oscar{
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    padding-bottom: 70px;
+}
+
+.logros-container .cosaazul{
+    position: absolute;
+    left: 16px;
+    top: 4105px;
+    width: 288px;
+    border-radius: 10px;
+}
+
+.logros-container p{
+    position: absolute;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    left: 30px;
+    right: 30px;
+    top: 4130px;
+}
+
+.botones{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.botones img{
+    padding-left: 5px;
 }
